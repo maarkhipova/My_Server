@@ -1,1 +1,1 @@
-https://github.com/maarkhipova/My_Server/blob/main/index.html
+https://maarkhipova.github.io/My_Server/
