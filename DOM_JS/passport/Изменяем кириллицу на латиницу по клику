@@ -1,0 +1,33 @@
+const node_for_click = document.getElementById("first_name")
+
+function find_edit(){
+    const item  = document.getElementById("first_name")
+    console.log(item.innerText)
+    item.innerHTML="<b>Maria</b>"
+}
+
+node_for_click.addEventListener("click",find_edit)
+
+
+
+node_for_click = document.getElementById("last_name")
+
+function find_edit(){
+    const item  = document.getElementById("last_name")
+    console.log(item.innerText)
+    item.innerHTML="<b>Arhipova</b>"
+}
+
+node_for_click.addEventListener("click",find_edit)
+
+
+
+node_for_click = document.getElementById("data")
+
+function find_edit(){
+    const item  = document.getElementById("data")
+    console.log(item.innerText)
+    item.innerHTML="<b>Data</b>"
+}
+
+node_for_click.addEventListener("click",find_edit)
