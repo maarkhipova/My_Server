@@ -11,16 +11,30 @@
     <body style="background-color:#fffcdf;">
         <font face="Courier New">
 
-            <h1 align="center"><p>РОССИЙСКАЯ ФЕДЕРАЦИЯ</p></h1>
+            <h1 align="center">
+                <p>РОССИЙСКАЯ ФЕДЕРАЦИЯ</p>
+            </h1>
             <img alt="Есть проблемы ..." src="DOM_JS.webp" width="200px" align="right">
-            <h5 align="left>"><p>Паспорт выдан</p></h5>
-            <h4 align="right>"><p>ОТДЕЛЕНИЕМ УФМС РОССИИ ПО САНКТ-ПЕТЕРБУРГУ И ЛЕНИНГРАДСКОЙ ОБЛАСТИ</p></h4>
-            
-            <h5><p>Дата выдачи</p></h5>
-            <h4><p>12.12.2024</p></h4>
-            <h5><p>Код подразделения</p></h5>
-            <h4><p>521-569</p></h4>
-            
+            <h5 align="left>">
+                <p>Паспорт выдан</p>
+            </h5>
+            <h4 align="right>">
+                <p>ОТДЕЛЕНИЕМ УФМС РОССИИ ПО САНКТ-ПЕТЕРБУРГУ И ЛЕНИНГРАДСКОЙ ОБЛАСТИ</p>
+            </h4>
+
+            <h5>
+                <p>Дата выдачи</p>
+            </h5>
+            <h4>
+                <p>12.12.2024</p>
+            </h4>
+            <h5>
+                <p>Код подразделения</p>
+            </h5>
+            <h4>
+                <p>521-569</p>
+            </h4>
+
             <h1>
                 <p><span id="first_name">Мария</span></p>
                 <p><span id="last_name">Архипова</span></p>
@@ -35,17 +49,26 @@
                 <p>пол</p>
                 <p>ЖЕНСКИЙ</p>
             </h4>
-            
+
             <h4 align="right">
                 <p>серия</p>
                 <p>2065</p>
             </h4>
-            
+
             <h4 align="right">
                 <p>номер</p>
                 <p>725693</p>
             </h4>
         </font>
     </body>
-    <script src="./Изменяем кириллицу на латиницу по клику"></script>
-</html>  
+    <script>
+        const node_for_click = document.getElementById("first_name")
+
+        function find_edit() {
+            const item = document.getElementById("first_name")
+            console.log(item.innerText)
+            item.innerHTML = "<b>Maria</b>"
+        }
+    </script>
+
+</html>
