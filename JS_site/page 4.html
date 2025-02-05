@@ -3,10 +3,9 @@
 
 <style>
     p {
-      margin: 50px;;
-      font-size: 20px;
+        margin: 50px;
     }
-  </style>
+</style>
 
 <head>
     <meta charset="utf-8">
@@ -150,32 +149,65 @@
                 </form>
             </div>
         </div>
-        <script src="///"></script>
 
     </div>
 
-    <div>
-        <br>
-        <h2>
-            <p class="text-center fs-2; fw-lighter">Чтобы оформить заказ заполните анкету, представленную ниже.</p>
-        </h2>
-    </div>
+    <div class="container">
+        <div class="card-body">
+            <br>
+            <h2>
+                Чтобы оформить заказ заполните анкету, представленную ниже:</p>
+            </h2>
 
-    <div class="mb-3">
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <input name="q" type="hidden" value="search">
+                <div style="width: 50rem;">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Имя" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Фамилия" aria-label="Last name">
+                        </div>
+                    </div>
 
-        <label for="exampleFormControlInput1" class="form-label">Ваш E-mail</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@yandex.com">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Пожелания по внешнему виду товара</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Ваш E-mail:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@yandex.com">
+                        <input type="hidden" name="email" value="name@yandex.com">
+                    </div>
 
-    <div style="text-align: center;"><br>
-        <p><img src="./images/Ресурс 5.png" style="width: 50px;"></p>
-    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Ваш телефон:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                        <input type="hidden" name="tel" value="111">
+                    </div>
 
-    <div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis"></div>
+                    <div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Пожелания по внешнему виду
+                                товара</label>
+                            <textarea class="form-control" placeholder="Хочу чульо" id="exampleFormControlTextarea1"
+                                rows="3"></textarea>
+                            <input type="hidden" name="text" value="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div style="text-align: center;"><br>
+            <p><img src="./images/Ресурс 5.png" style="width: 50px;"></p>
+        </div>
+
+        <div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis"></div>
 
 </body>
 
