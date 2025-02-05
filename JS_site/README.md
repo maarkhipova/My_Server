@@ -1,1 +1,1 @@
-https://github.com/maarkhipova/My_Server/JS_site/index.html
+https://maarkhipova.github.io/My_Server/JS_site/index.html
