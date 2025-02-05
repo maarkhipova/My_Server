@@ -1,1 +1,1 @@
-### https://github.com/maarkhipova/My_Server/blob/main/JS_site/index.html
+### https://github.com/maarkhipova/My_Server/JS_site/index.html
